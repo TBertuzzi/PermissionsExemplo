@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PermissionsExemplo" 
+             x:Class="PermissionsExemplo.MainPage" Padding="0,20,0,0">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Teste de Plugin" />
+        <Button Text="Verificar acesso ao GPS" Clicked="GPS_Clicked"></Button>
+        <Button Text="Verificar acesso as fotos" Clicked="Foto_Clicked"></Button>
+    </StackLayout>
+</ContentPage>
